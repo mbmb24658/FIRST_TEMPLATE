@@ -1,18 +1,81 @@
-<!-- گالری -->
-<section id="gallery">
-    <h2>گالری تصاویر</h2>
-    <div class="gallery-grid">
-        <div class="gallery-item">
-            <img src="images/gallery1.jpg" alt="نمونه کار ۱">
-            <p>توضیح تصویر</p>
-        </div>
-        <div class="gallery-item">
-            <img src="images/gallery2.jpg" alt="نمونه کار ۲">
-            <p>توضیح تصویر</p>
-        </div>
-        <div class="gallery-item">
-            <img src="images/gallery3.jpg" alt="نمونه کار ۳">
-            <p>توضیح تصویر</p>
-        </div>
-    </div>
-</section>
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>گالری - نام کسب‌وکار</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">لوگو</div>
+            <ul class="nav-links">
+                <li><a href="../index.html">خانه</a></li>
+                <li><a href="about.html">درباره ما</a></li>
+                <li><a href="services.html">خدمات</a></li>
+                <li><a href="gallery.html">گالری</a></li>
+                <li><a href="../index.html#contact">تماس</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main style="margin-top: 80px;">
+        <section style="padding: 4rem 2rem; max-width: 1200px; margin: 0 auto;">
+            <h2 style="text-align: center; margin-bottom: 3rem; font-size: 2.5rem;">گالری تصاویر</h2>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem;">
+                <!-- تصویر ۱ -->
+                <div style="background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+                    <div style="height: 200px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); display: flex; align-items: center; justify-content: center; color: white; font-size: 3rem;">
+                        🖼️
+                    </div>
+                    <div style="padding: 1.5rem;">
+                        <h3 style="margin-bottom: 0.5rem;">نمونه کار ۱</h3>
+                        <p style="color: #666; line-height: 1.6;">توضیح کوتاه درباره این نمونه کار و ویژگی‌های آن</p>
+                    </div>
+                </div>
+
+                <!-- تصویر ۲ -->
+                <div style="background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+                    <div style="height: 200px; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); display: flex; align-items: center; justify-content: center; color: white; font-size: 3rem;">
+                        🎨
+                    </div>
+                    <div style="padding: 1.5rem;">
+                        <h3 style="margin-bottom: 0.5rem;">نمونه کار ۲</h3>
+                        <p style="color: #666; line-height: 1.6;">توضیح کوتاه درباره این نمونه کار و ویژگی‌های آن</p>
+                    </div>
+                </div>
+
+                <!-- تصویر ۳ -->
+                <div style="background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+                    <div style="height: 200px; background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); display: flex; align-items: center; justify-content: center; color: white; font-size: 3rem;">
+                        📊
+                    </div>
+                    <div style="padding: 1.5rem;">
+                        <h3 style="margin-bottom: 0.5rem;">نمونه کار ۳</h3>
+                        <p style="color: #666; line-height: 1.6;">توضیح کوتاه درباره این نمونه کار و ویژگی‌های آن</p>
+                    </div>
+                </div>
+
+                <!-- تصویر ۴ -->
+                <div style="background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+                    <div style="height: 200px; background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); display: flex; align-items: center; justify-content: center; color: white; font-size: 3rem;">
+                        ✨
+                    </div>
+                    <div style="padding: 1.5rem;">
+                        <h3 style="margin-bottom: 0.5rem;">نمونه کار ۴</h3>
+                        <p style="color: #666; line-height: 1.6;">توضیح کوتاه درباره این نمونه کار و ویژگی‌های آن</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© ۲۰۲۴ تمام حقوق محفوظ است</p>
+    </footer>
+
+    <script src="../scripts/script.js"></script>
+</body>
+</html>
