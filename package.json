@@ -1,0 +1,8 @@
+{
+  "name": "business-template",
+  "version": "1.0.0",
+  "description": "Business website template",
+  "scripts": {
+    "build": "echo 'Building static site'"
+  }
+}
